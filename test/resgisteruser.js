@@ -9,8 +9,8 @@ var needle = require('needle');
 
     }
 
-    var auth = "Basic " + new Buffer("1489371181260" + ":" + "SJSNlFQsx").toString("base64");
-    var authbearer = "Bearer " + "ae0d8230-0792-11e7-ada1-e11986081b78";
+    var auth = "Basic " + new Buffer("1489446233355" + ":" + "H1-DSs4il").toString("base64");
+    var authbearer = "Bearer " + "6b6d2160-0841-11e7-a642-d3314bc452ef";
 
    var options={
       headers: { 'Authorization': auth},

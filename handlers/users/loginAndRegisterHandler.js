@@ -4,7 +4,7 @@ exports.registerUser=function(req, res, next) {
 
 passport.authenticate('signup',{session:false}, function(err, user, info) {
 
-   console.log("TEST"+req.session.id)
+
 
 
     if (err) {

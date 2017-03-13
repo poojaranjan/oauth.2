@@ -57,7 +57,7 @@ passport.use("clientBasic", new BasicStrategy({
 
 passport.use("clientPassword", new ClientPasswordStrategy(
     function(clientId, clientSecret, done) {
-        console.log("sadadadasdasssssssssss");
+      
         User.findOne({ clientid: clientId }, function(err, client) {
             if (err) return done(err)
             if (!client) return done(null, false)
